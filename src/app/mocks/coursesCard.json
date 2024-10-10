@@ -1,0 +1,77 @@
+{
+  "categories": [
+    {
+      "id": "english",
+      "name": "Inglês"
+    },
+    {
+      "id": "design",
+      "name": "Design"
+    },
+    {
+      "id": "programming",
+      "name": "Programação"
+    },
+    {
+      "id": "administration",
+      "name": "Administração"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "categoryId": "english",
+      "thumbImagePath": "courseThumbFinancial",
+      "thumbTextAlt": "Foto de inglês",
+      "name": "Inglês para negócio",
+      "reviewRating": 4.8,
+      "moduleQuantity": 10,
+      "hoursQuantity": 60,
+      "classesQuantity": 25
+    },
+    {
+      "id": 2,
+      "categoryId": "english",
+      "thumbImagePath": "courseThumbMarketing",
+      "thumbTextAlt": "Foto de inglês",
+      "name": "Inglês para marketing",
+      "reviewRating": 4.7,
+      "moduleQuantity": 8,
+      "hoursQuantity": 55,
+      "classesQuantity": 20
+    },
+    {
+      "id": 3,
+      "categoryId": "design",
+      "thumbImagePath": "courseThumbIllustrator",
+      "thumbTextAlt": "Foto de Illustrator",
+      "name": "Illustrator Básico",
+      "reviewRating": 4.9,
+      "moduleQuantity": 8,
+      "hoursQuantity": 58,
+      "classesQuantity": 22
+    },
+    {
+      "id": 4,
+      "categoryId": "programming",
+      "thumbImagePath": "courseThumbLaravel",
+      "thumbTextAlt": "Foto de programação",
+      "name": "Introdução à Laravel",
+      "reviewRating": 4.8,
+      "moduleQuantity": 10,
+      "hoursQuantity": 80,
+      "classesQuantity": 30
+    },
+    {
+      "id": 5,
+      "categoryId": "administration",
+      "thumbImagePath": "courseThumbFinancial",
+      "thumbTextAlt": "Foto de financial",
+      "name": "Introdução à finanças",
+      "reviewRating": 4.8,
+      "moduleQuantity": 15,
+      "hoursQuantity": 100,
+      "classesQuantity": 35
+    }
+  ]
+}

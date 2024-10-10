@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #110F34;
+  color: #efeefe;
+}
+
+/* Geral */
+.arrow-button {
+  background: #08afe6;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  box-shadow: 4px 6px 0px 0px #050071;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  cursor: pointer;
+
+  i {
+    margin-left: 4px;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    transition: .4s;
+  }
+}
+
+.section-title {
+  display: inline-block;
+  background: #efeefe;
+  border-radius: 30px;
+  padding: 3.95px 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5751e1;
+  text-align: center;
+}
