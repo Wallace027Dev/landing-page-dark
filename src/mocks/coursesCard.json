@@ -1,0 +1,78 @@
+{
+  "categories": [
+    {
+      "id": "english",
+      "name": "Inglês"
+    },
+    {
+      "id": "design",
+      "name": "Design"
+    },
+    {
+      "id": "programming",
+      "name": "Programação"
+    },
+    {
+      "id": "administration",
+      "name": "Administração"
+    }
+  ],
+  "courses": [
+    {
+      "id": 2,
+      "categoryId": "english",
+      "thumbImagePath": "courseThumbEnglish",
+      "backgroundColor": "#BA3411",
+      "textColor": "white",
+      "thumbTextAlt": "Foto de inglês",
+      "name": "English for life",
+      "tags": ["Comunicação", "Criatividade", "Cooperação"],
+      "reviewRating": 4.7,
+      "moduleQuantity": 8,
+      "hoursQuantity": 144,
+      "classesQuantity": 96
+    },
+    {
+      "id": 3,
+      "categoryId": "design",
+      "thumbImagePath": "courseThumbPlayGo",
+      "backgroundColor": "#ff5400",
+      "textColor": "white",
+      "thumbTextAlt": "Foto de PlayGO",
+      "name": "PlayGO",
+      "tags": ["Pacote Office", "Suite Adobe", "3D"],
+      "reviewRating": 4.9,
+      "moduleQuantity": 8,
+      "hoursQuantity": 144,
+      "classesQuantity": 96
+    },
+    {
+      "id": 4,
+      "categoryId": "programming",
+      "thumbImagePath": "fullstackThumb",
+      "backgroundColor": "#50018f",
+      "textColor": "white",
+      "thumbTextAlt": "Foto de programação",
+      "name": "Programação Fullstack",
+      "tags": ["HTML, CSS e JS", "Node", "IA", "SQL e NoSQL"],
+      "reviewRating": 5,
+      "moduleQuantity": 8,
+      "hoursQuantity": 168,
+      "classesQuantity": 122
+    },
+    {
+      "id": 5,
+      "categoryId": "administration",
+      "thumbImagePath": "courseThumbCfe",
+      "backgroundColor": "#FB6B95",
+      "textColor": "white",
+      "thumbTextAlt": "Foto de cfe",
+      "name": "Curso de Formação Executiva",
+      "tags": ["Pacote Office", "Administração", "Inglês"],
+      "reviewRating": 4.8,
+      "moduleQuantity": 6,
+      "hoursQuantity": 144,
+      "classesQuantity": 96
+    }
+  ]
+}
