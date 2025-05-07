@@ -6,12 +6,12 @@ export const ModalOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Fundo escurecido */
-  backdrop-filter: blur(1px); /* Desfoque aplicado ao fundo */
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(1px);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* Garante que o modal fique no topo */
+  z-index: 9999;
 `;
 
 export const ModalContent = styled.div`
@@ -110,13 +110,13 @@ export const ButtonModal = styled.span`
   @media screen and (max-width: 768px) {
     .button {
       font-size: 1rem;
-      padding: 20px 20px; /* Ajusta o padding para o mobile */
+      padding: 20px 20px;
     }
 
     .button span {
-      white-space: nowrap; /* Evita quebra de linha no texto */
+      white-space: nowrap;
       overflow: hidden;
-      text-overflow: ellipsis; /* Adiciona reticências se o texto for muito longo */
+      text-overflow: ellipsis;
     }
   }
 `;

@@ -8,7 +8,7 @@ export default function Footer() {
     <FooterContainer>
       <section className="prisma-logo-container"></section>
       <section className="social-media-container">
-        <p>Copyright © 2024 PrismaTech</p>
+        <p>Copyright © {new Date().getFullYear()} PrismaTech</p>
         <div>
           <Link target="_blank" href="https://www.facebook.com/prismatechcode">
             <i className="bi bi-facebook"></i>

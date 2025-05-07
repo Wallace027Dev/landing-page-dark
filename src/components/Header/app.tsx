@@ -2,35 +2,38 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect, useState } from "react"; // Importando useEffect e useState para controle de estado
+import { useEffect, useState } from "react";
 import {
   HeaderPar,
   HeaderContainer,
   LinkList,
   LinksContainer,
   Nav,
+  MobileNav,
 } from "./style";
 
 import prismaLogoGrande from "@/assets/light-logo.png";
 
 export default function Header() {
-  const [isScrolled, setIsScrolled] = useState(false); // Estado para rastrear se a página foi rolada
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [menuAberto, setMenuAberto] = useState(false);
 
   const handleScroll = () => {
-    const currentScrollY = window.scrollY; // Obtém a posição atual do scroll
-    setIsScrolled(currentScrollY > 0); // Atualiza o estado com base na posição do scroll
+    const currentScrollY = window.scrollY;
+    setIsScrolled(currentScrollY > 0);
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll); // Adiciona o listener de scroll
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll); // Limpa o listener ao desmontar o componente
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <HeaderPar isScrolled={isScrolled} id="home"> {/* Passando o estado para o HeaderPar */}
+    <HeaderPar isScrolled={isScrolled} id="home" >
+      {/* Passando o estado para o HeaderPar */}
       <HeaderContainer>
         <Link href="/">
           <Image src={prismaLogoGrande} alt="Logo" width={246} />
@@ -64,6 +67,22 @@ export default function Header() {
           <i style={{ display: "none" }} className=" bi bi-person"></i>
           <Link target="_blank" href="https://wa.me/2732071125?text=Gostaria de me cadastrar na sua plataforma.">Cadastre-se</Link>
         </LinksContainer>
+
+        {/* <!-- Menu Mobile --> */}
+        <MobileNav aberto={menuAberto}>
+          <Link href="#home">Home</Link>
+          <Link href="#diferenciais">Sobre</Link>
+          <Link href="#cursos">Serviços</Link>
+          <Link href="#workshop">Workshops</Link>
+          <Link href="#contatos">Contato</Link>
+        </MobileNav>
+
+        <button
+          onClick={() => setMenuAberto(!menuAberto)}
+          className="menu-mobile-btn"
+        >
+          <i className="bi bi-list" style={{ fontSize: "2rem", color: "#fff" }}></i>
+        </button>
       </HeaderContainer>
     </HeaderPar>
   );

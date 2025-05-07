@@ -102,7 +102,7 @@ export const NewsletterContainer = styled.div`
         transition: 0.4s ease-in;
         cursor: pointer;
       }
-        
+
     }
 
     @media (max-width: 550px) {
@@ -151,13 +151,13 @@ export const PersonalImage = styled.div`
   .background-container {
     display: block;
     width: 100%;
+    position: relative;
   }
 
   .pessoa-foto {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -55.5%);
+    bottom: 0;
+    left: 0%;
     width: 100%;
     height: auto;
     object-fit: cover;

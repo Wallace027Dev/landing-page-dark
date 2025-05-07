@@ -23,11 +23,6 @@ export const HeroContainer = styled.div`
   @media (max-width: 1024px) {
     margin-top: 90px;
     flex-direction: column;
-
-    img {
-      max-height: 400px;
-      width: auto;
-    }
   }
 `;
 
@@ -83,7 +78,7 @@ export const HeroImage = styled.div`
 
   img {
     width: auto;
-    height: 614px;
+    height: 60vh;
 
     @media (max-width: 425px) {
       width: 100%;

@@ -66,7 +66,7 @@ export const InfoLearnContainer = styled.div`
     align-items: center;
     text-align: center;
 
-    
+
   }
 `;
 
@@ -98,17 +98,17 @@ export const ArrowIcon = styled.div`
   justify-content: center;
   border: 1px solid ${({ theme }) => theme.colors.blues.medium};
   box-shadow: 4px 3px 0px 0px rgba(0, 0, 0, 0.25);
-  position: relative; /* Para permitir que o hover atue corretamente */
+  position: relative;
 
   img {
     display: inline-block;
     position: relative;
-    transform: translateX(0); /* Posiciona a seta inicialmente no centro */
-    transition: transform 0.3s ease-in-out; /* Suaviza a transição inicial */
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
   }
 
   &:hover img {
-    animation: ${slideInOut} 2s ease-in-out infinite; /* Ativa a animação ao passar o mouse */
+    animation: ${slideInOut} 2s ease-in-out infinite;
   }
 `;
 
