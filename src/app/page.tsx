@@ -1,18 +1,18 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import Header from "./components/Header/app";
-import CourseListingSection from "./components/CourseListingSection/app";
-import DiferenciaisSection from "./components/DiferenciaisSection/app";
-import HeroSection from "./components/HeroSection/app";
-import WorkshopSection from "./components/WorkshopSection/app";
-import TestimonialSection from "./components/TestimonialSection/app";
-import ContactsSection from "./components/ContactsSection/app";
-import Footer from "./components/Footer/app";
-import LearnSection from "./components/LearnSection/app";
-import LoaderContainer from "./components/LoaderContainer/App";
-import { ThemeProvider } from "styled-components";
 import designSystem from "@/designSystem";
+import Header from "@/components/Header/app";
+import CourseListingSection from "@/components/CourseListingSection/app";
+import DiferenciaisSection from "@/components/DiferenciaisSection/app";
+import HeroSection from "@/components/HeroSection/app";
+import WorkshopSection from "@/components/WorkshopSection/app";
+import TestimonialSection from "@/components/TestimonialSection/app";
+import ContactsSection from "@/components/ContactsSection/app";
+import Footer from "@/components/Footer/app";
+import LearnSection from "@/components/LearnSection/app";
+import { ThemeProvider } from "styled-components";
+import LoaderContainer from "@/components/LoaderContainer/App";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);

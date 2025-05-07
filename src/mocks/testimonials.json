@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "perfilPhoto": "alanaPhoto",
+    "miniaturaPhoto": "alanaMiniatura",
+    "altPhoto": "Foto de perfil da Alana",
+    "rating": 4.7,
+    "name": "Alana",
+    "areaOfActivity": "Administração",
+    "testimonial": "O curso foi fundamental para que eu me destacasse no meu trabalho e adquirisse confiança nas minhas habilidades."
+  },
+  {
+    "id": 2,
+    "perfilPhoto": "hevellyPhoto",
+    "miniaturaPhoto": "hevellyMiniatura",
+    "altPhoto": "Foto de perfil da Hevelly",
+    "rating": 4.7,
+    "name": "Hevelly",
+    "areaOfActivity": "Telemarketing",
+    "testimonial": "Agora me sinto preparada para enfrentar desafios do dia a dia com muito mais segurança e conhecimento prático."
+  },
+  {
+    "id": 3,
+    "perfilPhoto": "josuePhoto",
+    "miniaturaPhoto": "josueMiniatura",
+    "altPhoto": "Foto de perfil do Josue",
+    "rating": 4.9,
+    "name": "Josué",
+    "areaOfActivity": "Administração",
+    "testimonial": "A minha vontade de crescer foi muito maior do que ficar estagnado. Eu abracei a oportunidade e desfrutei dela, e hoje estou crescendo muito."
+  },
+  {
+    "id": 4,
+    "perfilPhoto": "liviaPhoto",
+    "miniaturaPhoto": "liviaMiniatura",
+    "altPhoto": "Foto de perfil da Livia",
+    "rating": 4.7,
+    "name": "Lívia",
+    "areaOfActivity": "Administração",
+    "testimonial": "Além do conhecimento técnico, aprendi a trabalhar melhor em equipe, algo que tem sido essencial no meu dia a dia."
+  },
+  {
+    "id": 5,
+    "perfilPhoto": "brenoPhoto",
+    "miniaturaPhoto": "brenoMiniatura",
+    "altPhoto": "Foto de perfil do Breno",
+    "rating": 4.7,
+    "name": "Breno",
+    "areaOfActivity": "Acadêmico",
+    "testimonial": "Não se trata apenas de uma instituição de ensino, mas de um ambiente propício ao desenvolvimento de habilidades técnicas e à formação de novas conexões sociais."
+  },
+  {
+    "id": 6,
+    "perfilPhoto": "morianPhoto",
+    "miniaturaPhoto": "morianMiniatura",
+    "altPhoto": "Foto de perfil da Morian",
+    "rating": 4.7,
+    "name": "Morian",
+    "areaOfActivity": "Acadêmico",
+    "testimonial": "Além do conhecimento técnico, aprendi a trabalhar melhor em equipe, algo que tem sido essencial no meu dia a dia."
+  }
+]
