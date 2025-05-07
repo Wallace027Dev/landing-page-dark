@@ -133,4 +133,7 @@ Este projeto está licenciado sob a **MIT License**.
 
 ---
 
-Desenvolvido com ❤️ pela equipe **PrismaTech**.
+## Autor
+
+[Wallace Vieira](https://wallacevieira.vercel.app)  
+Desenvolvedor Fullstack e gamer.
